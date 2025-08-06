@@ -1,7 +1,7 @@
-<h1><a href="https://ui-lib.com/downloads/matx-react-dashboard/">Matx React Material Design Admin Dashboard Template</a></h1>
+<h1><a href="https://ui-lib.com/downloads/matx-react-dashboard/">TPN Connect Website</a></h1>
 
 <a href="https://matx-react-free.netlify.app/">
-  <img alt="Matx React Admin" src="https://ui-lib.com/blog/wp-content/uploads/2021/09/matx-github.png" />
+  <img alt="Website Preview" src="public/assets/images/illustrations/404.svg" />
 </a>
 
 <p>MatX is a full-featured React Material UI Admin Dashboard template. MatX is built with React, Redux & Material UI We implemented all the features you might need to start a new Web application. The free version includes all Material UI components, Form elements, and validation, JWT authentication, Sign in, sign up pages,  Vertical navigation, Lazy loading, Code splitting.</p>
