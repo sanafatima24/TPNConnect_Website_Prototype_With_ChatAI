@@ -8,12 +8,10 @@ This project is a **React-based web application** built on the [Matx React Admin
 ---
 
 ## 🚀 Features
-- Matx React admin dashboard template
-- Material UI components
-- AI chatbot integration
-- Chart visualizations
+- A Cleaner, Simpler and Interactive Admin Dashboard
+- Depot-to-Depot Communication Chatbox
+- AI Chatbot Assistance
 - Authentication system
-- Responsive design
 
 ---
 
