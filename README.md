@@ -1,8 +1,6 @@
 <h1>TPN Connect Website</h1>
 <img alt="Website Preview" src="public/assets/images/welcome.svg" />
 
-# Matx React AI Assistant
-
 This project is a **React-based web application** based on the [The Pallet Network (TPN) Website](https://www.tpnconnect.com/Account/LogOn?ReturnUrl=%2f) with additional features, including an **AI Assistant** powered by Google's Generative Language API.
 
 ---
@@ -68,7 +66,7 @@ rm -rf node_modules/.vite
 ```
 
 ### 6. 💡 Credits
-Matx React Admin Template (https://github.com/uilibrary/matx-react)
+[Matx React Admin Template](https://github.com/uilibrary/matx-react)
 Material UI
 Google Generative Language API
 
