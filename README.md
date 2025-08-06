@@ -66,8 +66,8 @@ rm -rf node_modules/.vite
 ```
 
 ### 6. 💡 Credits
-[Matx React Admin Template](https://github.com/uilibrary/matx-react)
-Material UI
-Google Generative Language API
+- [Matx React Admin Template](https://github.com/uilibrary/matx-react)
+- Material UI
+- Google Generative Language API
 
 
