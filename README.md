@@ -1,8 +1,6 @@
-<h1><a href="https://ui-lib.com/downloads/matx-react-dashboard/">TPN Connect Website</a></h1>
+<h1>TPN Connect Website</h1>
+<img alt="Website Preview" src="public/assets/images/welcome.svg" />
 
-<a href="https://matx-react-free.netlify.app/">
-  <img alt="Website Preview" src="public/assets/images/welcome.svg" />
-</a>
 # Matx React AI Assistant
 
 This project is a **React-based web application** built on the [Matx React Admin Template](https://github.com/uilibrary/matx-react) with additional features, including an **AI Assistant** powered by Google's Generative Language API.
