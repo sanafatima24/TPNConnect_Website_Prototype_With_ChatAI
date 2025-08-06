@@ -1,7 +1,7 @@
 <h1><a href="https://ui-lib.com/downloads/matx-react-dashboard/">TPN Connect Website</a></h1>
 
 <a href="https://matx-react-free.netlify.app/">
-  <img alt="Website Preview" src="public/assets/images/illustrations/404.svg" />
+  <img alt="Website Preview" src="public/assets/images/welcome.svg" />
 </a>
 # Matx React AI Assistant
 
