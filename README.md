@@ -36,7 +36,7 @@ yarn install
 
 ### 3. ⚙️ Configuration
 Set up environment variables
-- In the .env file: Replace YOUR_API_KEY in VITE_API_GENERATIVE_LANGUAGE_CLIENT=YOUR_API_KEY with your actual API key from Google Cloud Console.
+- In the .env file: Replace YOUR_API_KEY in VITE_API_GENERATIVE_LANGUAGE_CLIENT=YOUR_API_KEY with your actual API key from [Google AI Studio](https://aistudio.google.com/apikey).
 
 ### 4. ▶️ Running the project
 ```bash
