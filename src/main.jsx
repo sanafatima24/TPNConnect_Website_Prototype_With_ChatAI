@@ -3,6 +3,9 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 // ROOT APP COMPONENT
 import App from "./app/App";
+import "./globals.css";
+
+// import "./app/views/figma/styles/globals.css"
 // THIRD PARTY CSS
 import "perfect-scrollbar/css/perfect-scrollbar.css";
 

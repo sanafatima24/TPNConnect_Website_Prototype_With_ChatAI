@@ -15,6 +15,13 @@ const HomeAnalytics = Loadable(lazy(() => import("app/views/home/Analytics")));
 const Analytics = Loadable(lazy(() => import("app/views/dashboard/Analytics")));
 const Chatbot = Loadable(lazy(() => import("app/views/AIAssistant/Chatbot")));
 
+// --- Imported from Figma app ---
+const DashboardDetails = Loadable(lazy(() => import("app/views/figma/DashboardDetails")));
+const ConsignmentEntry = Loadable(lazy(() => import("app/views/figma/ConsignmentEntry")));
+const AdvancedSearch = Loadable(lazy(() => import("app/views/figma/AdvancedSearch")));
+const ViewConsignment = Loadable(lazy(() => import("app/views/figma/ViewConsignment")));
+const RoutingPage = Loadable(lazy(() => import("app/views/figma/Routing")));
+
 const routes = [
   // ✅ DEFAULT: route '/' to the new home
   { path: "/", element: <Navigate to="/home" /> },
@@ -31,7 +38,15 @@ const routes = [
 
       // other routes
       { path: "/dashboard/default", element: <Analytics />, auth: authRoles.admin },
-      { path: "/AIAssistant/Chatbot", element: <Chatbot />, auth: authRoles.editor }
+      { path: "/AIAssistant/Chatbot", element: <Chatbot />, auth: authRoles.editor },
+
+
+       // --- Figma app routes ---
+      { path: "/dashboarddetails", element: <DashboardDetails />, auth: authRoles.admin },
+      { path: "/new-entry", element: <ConsignmentEntry />, auth: authRoles.admin },
+      { path: "/advanced-search", element: <AdvancedSearch />, auth: authRoles.admin },
+      { path: "/view-consignment/:docket", element: <ViewConsignment />, auth: authRoles.admin }, // detail by docket
+      { path: "/routing", element: <RoutingPage />, auth: authRoles.admin }
     ]
   },
 

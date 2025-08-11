@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["DOM", "ES2020"],
+    "jsx": "react-jsx", // or "react" if you use the old JSX transform
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true, // <-- crucial: lets TypeScript import .js/.jsx
+    "checkJs": false, // don't type-check old .jsx files
+    "esModuleInterop": true,
+    "skipLibCheck": true, // avoid dependency type errors
+    "noEmit": true, // don't emit files (bundler handles transpile)
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strict": false
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "build"]
+}
