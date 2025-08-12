@@ -40,8 +40,7 @@ const routes = [
       { path: "/dashboard/default", element: <Analytics />, auth: authRoles.admin },
       { path: "/AIAssistant/Chatbot", element: <Chatbot />, auth: authRoles.editor },
 
-
-       // --- Figma app routes ---
+      // --- Figma app routes ---
       { path: "/dashboarddetails", element: <DashboardDetails />, auth: authRoles.admin },
       { path: "/new-entry", element: <ConsignmentEntry />, auth: authRoles.admin },
       { path: "/advanced-search", element: <AdvancedSearch />, auth: authRoles.admin },
