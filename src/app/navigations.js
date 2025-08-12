@@ -25,6 +25,7 @@ const navigations = [
         name: "Consignment Entry",
         iconText: "C",
         children: [
+          { name: "Add New Consinment", path: "/new-entry", iconText: "AC" },
           { name: "Collection Request", path: "/", iconText: "CR" },
           { name: "Consignment Authorization", path: "/", iconText: "CA" },
           { name: "Consignment Customs", path: "/", iconText: "CC" }
